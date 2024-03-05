@@ -5,7 +5,7 @@ export const Wrapper = styled.section`
   height: 100vh;
   display: flex;
   align-items: center;
-  border: 1px solid red;
+  border-bottom: 5px solid #52899a;
 `;
 
 export const HeroContent = styled.div`
@@ -22,7 +22,7 @@ export const ImageContent = styled.img`
 export const Titlecontent = styled.h1`
   width: 100%;
   font-size: 30px;
-  font-family: "Prompt", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 200;
   text-transform: uppercase;
   text-align: center;
