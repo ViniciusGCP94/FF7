@@ -3,6 +3,7 @@ import {
   CharacterImg,
   CharactersButton,
   CharactersContainer,
+  CharactersContainerImg,
   CharactersText,
   CharactersTitle,
 } from "./styles";
@@ -31,20 +32,15 @@ const Characters = () => {
         </CharactersText>
         <CharactersButton>View characters</CharactersButton>
       </CharactersContainer>
-      <CharactersContainer
+      <CharactersContainerImg
         style={{
-          backgroundColor: "rgba(0, 0, 0, 0)",
-          border: "1px solid blue",
           height: "100vh",
           display: "flex",
-          justifyContent: "Center",
           alignItems: "flex-end",
-          margin: "0",
-          padding: "0",
         }}
       >
         <CharacterImg src={CharacterImage} alt="" />
-      </CharactersContainer>
+      </CharactersContainerImg>
     </ContainerSection>
   );
 };

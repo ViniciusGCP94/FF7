@@ -1,4 +1,5 @@
 import {
+  AwardsImg,
   ButtonContent,
   Buttons,
   HeroContent,
@@ -8,6 +9,7 @@ import {
 } from "./hero";
 import BackgroundImage from "../../assets/images/banner-FFRebirth1.png";
 import LogoFF from "../../assets/images/ff7_rebirth.png";
+import Awards from "../../assets/images/awards-transparent.png";
 
 const Hero = () => {
   return (
@@ -26,6 +28,21 @@ const Hero = () => {
           <ButtonContent>Buy Now</ButtonContent>
           <ButtonContent>Watch Trailer</ButtonContent>
         </Buttons>
+      </HeroContent>
+      <HeroContent
+        style={{
+          height: "100vh",
+          justifyContent: "center",
+          alignItems: "flex-start",
+        }}
+      >
+        <AwardsImg
+          style={{
+            marginTop: "60px",
+          }}
+          src={Awards}
+          alt=""
+        />
       </HeroContent>
     </Wrapper>
   );

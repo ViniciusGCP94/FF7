@@ -6,6 +6,10 @@ export const CharactersContainer = styled.div`
   background-color: rgba(0, 0, 0, 0.6);
 `;
 
+export const CharactersContainerImg = styled.div`
+  width: 59%;
+`;
+
 export const CharactersTitle = styled.h1`
   font-size: 30px;
   font-family: "PT Sans", sans-serif;
@@ -32,7 +36,7 @@ export const CharactersButton = styled.button`
 `;
 
 export const CharacterImg = styled.img`
-  height: 100%;
-  background-size: contain;
-  background-position: center;
+  height: 85%;
+  position: absolute;
+  left: 400px;
 `;

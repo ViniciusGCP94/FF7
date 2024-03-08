@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
-  width: 98vw;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -9,18 +9,19 @@ export const Wrapper = styled.section`
 `;
 
 export const HeroContent = styled.div`
-  width: 40%;
+  width: 45%;
   height: 80%;
+  padding-left: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 `;
 export const ImageContent = styled.img`
-  width: 80%;
+  width: 70%;
 `;
 export const Titlecontent = styled.h1`
-  width: 100%;
+  width: 75%;
   font-size: 30px;
   font-family: "PT Sans", sans-serif;
   font-weight: 200;
@@ -29,7 +30,7 @@ export const Titlecontent = styled.h1`
 `;
 
 export const Buttons = styled.div`
-  width: 80%;
+  width: 75%;
   display: flex;
   justify-content: space-evenly;
 `;
@@ -38,5 +39,9 @@ export const ButtonContent = styled.button`
   font-size: 18px;
   font-weight: 600;
   padding: 12px 20px;
-  border: 1px solid black;
+`;
+
+export const AwardsImg = styled.img`
+  width: 40%;
+  margin-right: 20px;
 `;
