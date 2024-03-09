@@ -4,7 +4,7 @@ export const MediaTitle = styled.h1`
   width: 100%;
   height: 8%;
   color: #ffffff;
-  margin-top: 50px;
+  margin-top: 80px;
   font-size: 30px;
   font-family: "PT Sans", sans-serif;
   font-weight: 500;
@@ -28,4 +28,5 @@ export const MediaButton = styled.button`
   font-family: "PT Sans", sans-serif;
   font-weight: 600;
   text-align: center;
+  margin-bottom: 80px;
 `;

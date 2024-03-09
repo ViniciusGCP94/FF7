@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FaqContainer = styled.div`
   width: 95%;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +12,6 @@ export const FaqContainer = styled.div`
   text-transform: uppercase;
   overflow: auto;
   background-color: black;
-  border: 1px solid red;
 `;
 
 export const QuestionWrapper = styled.div`
