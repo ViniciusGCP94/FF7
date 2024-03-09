@@ -3,19 +3,22 @@ import styled from "styled-components";
 export const MediaTitle = styled.h1`
   width: 100%;
   height: 8%;
+  color: #ffffff;
   margin-top: 50px;
   font-size: 30px;
   font-family: "PT Sans", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
-  border: 1px solid red;
 `;
 
 export const MediaVideo = styled.div`
   width: 48%;
   height: 55%;
-  border: 1px solid red;
+`;
+
+export const Videos = styled.iframe`
+  border: none;
 `;
 
 export const MediaButton = styled.button`

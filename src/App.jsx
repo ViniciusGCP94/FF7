@@ -4,6 +4,7 @@ import Hero from "./containers/hero/index";
 import Story from "./containers/story/index";
 import Game from "./containers/game/index";
 import Media from "./containers/midia/index";
+import Faq from "./containers/perguntas/index";
 import { GlobalStyle } from "./styles/globalStyles";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Characters />
       <Game />
       <Media />
+      <Faq />
       <GlobalStyle />
     </>
   );
