@@ -32,4 +32,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar sugestões, rel
 ## Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
-
